@@ -7,6 +7,6 @@ print(f"Anna {ora}:{perc} tölt sétáltatással")
 fizu=darabkutya*700
 print(f"{darabkutya*700} Ft a fizetése")
 if fizu>=5000:
-    print(f"Anna {mire} gyűjtött, és egy hétvége melóval sikerült megvennie")
+    print(f"Anna {darabkutya} kutyát sétáltatott {ora} óra alatt, ezért {fizu} Ft-ot kapott. Ez már elég a {mire}.")
 else:
-    print(f"Anna {mire} gyűjtött, és egy hétvége melóval nem sikerült megvennie")
+    print(f"Anna {darabkutya} kutyát sétáltatott {ora} óra alatt, ezért {fizu} Ft-ot kapott. Ez még nem elég a {mire}.")
